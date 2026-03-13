@@ -9,7 +9,7 @@ export default function ProjectsSection() {
     {
       title: "Video Chat",
       description: "A real-time communication platform engineered with WebRTC and Socket.IO supporting multi-peer video streaming, screen sharing, and dynamic participant state synchronization.",
-      techStack: ["React", "WebRTC", "Socket.io", "Node.js", "Express"],
+      techStack: ["React.js", "WebRTC", "Socket.io", "Node.js", "Express.js"],
       githubFrontend: "https://github.com/nivas-reddy1/Frontend-for-Video-Chat",
       githubBackend: "https://github.com/nivas-reddy1/Backend-for-Video-Chat", 
       websiteLink: "https://videochat-two.vercel.app",
@@ -17,9 +17,29 @@ export default function ProjectsSection() {
       mobileImg: "/videochat2.png"
     },
     {
+      title: "Food Delivery Platform",
+      description: "A full-stack multi-vendor food delivery platform featuring real-time order tracking, and a comprehensive dashboard for restaurants and customers.",
+      techStack: ["MongoDB", "Express.js", "React.js", "Node.js", "Oauth 2.0", "Redux Toolkit", "RazorPay", "REST APIs"],
+      githubFrontend: "https://github.com/nivas-reddy1/food-delivery-frontend",
+      githubBackend: "https://github.com/nivas-reddy1/food-delivery-backend", 
+      websiteLink: "https://giggidy123.netlify.app",
+      desktopImg: "/food1.png",
+      mobileImg: "/food2.png"
+    },
+    {
+      title: "Password Reset Flow",
+      description: "This project demonstrates a complete, secure user authentication journey with a specific focus on the Password Reset functionality.",
+      techStack: ["Mongodb", "Express.js", "React.js", "Node.js", "Axios", "JWT's", "Nodemailer", "Bcrypt", "Nodemailer"],
+      githubFrontend: "https://github.com/nivas-reddy1/password-reset-client",
+      githubBackend: "https://github.com/nivas-reddy1/password-reset", 
+      websiteLink: "https://password-reset123.netlify.app",
+      desktopImg: "/reset1.png",
+      mobileImg: "/reset2.png"
+    },
+    {
       title: "Gmail Agent",
       description: "An autonomous LangGraph-powered agent that streamlines email triaging and calendar management via Gmail and Google Calendar APIs, achieving a high-performance 3-5 second latency (Please patience to popup signin page as it is not free to deploy backend that runs alltime).",
-      techStack: ["React", "LangGraph", "Python", "FastAPI", "AI Agents", "Gmail API", "Google Calendar API", "Gemini API"],
+      techStack: ["React.js", "LangGraph", "Python", "FastAPI", "AI Agents", "Gmail API", "Google Calendar API", "Gemini API"],
       githubFrontend: "https://github.com/nivas-reddy1/Gmail-Assistant-FE2",
       githubBackend: "https://github.com/nivas-reddy1/Gmail-Assistant-BE", 
       websiteLink: "https://gmail-assistant-qqw9.vercel.app",
@@ -29,27 +49,18 @@ export default function ProjectsSection() {
     {
       title: "Github RAG",
       description: "A full-stack application leveraging Google Gemini and Pinecone to enable context-aware code analysis and multi-turn conversations across GitHub repositories.",
-      techStack: ["React", "Pinecone", "FastAPI", "LangChain", "Python", "Gemini API"],
+      techStack: ["React.js", "Pinecone", "FastAPI", "LangChain", "Python", "Gemini API"],
       githubFrontend: "https://github.com/nivas-reddy1/Git-Rag-FE",
       githubBackend: "https://github.com/nivas-reddy1/Git-Rag-BE",
       websiteLink: "https://githubrag.vercel.app",
       desktopImg: "/gitrag1.png",
       mobileImg: "/gitrag2.png"
     },
-    {
-      title: "Food Delivery Platform",
-      description: "A full-stack multi-vendor food delivery platform featuring real-time order tracking, and a comprehensive dashboard for restaurants and customers.",
-      techStack: ["MongoDB", "Express", "React", "Node.js", "Oauth 2.0", "Redux Toolkit", "RazorPay", "REST APIs"],
-      githubFrontend: "https://github.com/nivas-reddy1/food-delivery-frontend",
-      githubBackend: "https://github.com/nivas-reddy1/food-delivery-backend", 
-      websiteLink: "https://giggidy123.netlify.app",
-      desktopImg: "/food1.png",
-      mobileImg: "/food2.png"
-    },
+
     {
       title: "Notes App",
       description: "Developed a notes management application using React JS that allows users to create, organize, and manage notes with tagging, filtering, and data persistence using localStorage.",
-      techStack: ["React", "JavaScript", "Tailwind CSS", "LocalStorage"],
+      techStack: ["React.js", "JavaScript", "Tailwind CSS", "LocalStorage"],
       githubFrontend: "https://github.com/nivas-reddy1/Notes-App",
       githubBackend: null,
       websiteLink: "https://notes125.netlify.app",
