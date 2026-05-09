@@ -34,7 +34,7 @@ export default function Navbar() {
               About Me
             </button>
             
-            <a href="/nivas_reddy.pdf" target="_blank" rel="noreferrer" className="text-violet-400 hover:text-gray-300 font-bold transition-colors tracking-wide uppercase text-sm">
+            <a href="/Sai_Nivas.pdf" target="_blank" rel="noreferrer" className="text-violet-400 hover:text-gray-300 font-bold transition-colors tracking-wide uppercase text-sm">
               Resume
             </a>
 
@@ -79,7 +79,7 @@ export default function Navbar() {
           <button onClick={scrollToTop} className="text-violet-400 hover:text-white cursor-pointer font-bold tracking-widest uppercase text-lg">
             About Me
           </button>
-          <a href="/nivas_reddy.pdf" target="_blank" rel="noreferrer" onClick={() => setIsMobileMenuOpen(false)} className="text-violet-400 hover:text-white font-bold tracking-widest uppercase text-lg">
+          <a href="/Sai_Nivas.pdf" target="_blank" rel="noreferrer" onClick={() => setIsMobileMenuOpen(false)} className="text-violet-400 hover:text-white font-bold tracking-widest uppercase text-lg">
             Resume
           </a>
           <button onClick={() => handleModalOpen(setIsCertOpen)} className="text-violet-400 hover:text-white cursor-pointer font-bold tracking-widest uppercase text-lg">
